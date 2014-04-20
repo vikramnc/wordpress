@@ -21,7 +21,7 @@ env:
 
 # execute any number of scripts before the test run, custom env's are available as variables
 before_script:
-	- echo "test message"
+- echo "test message"
 # omitting "script:" will default to phpunit
 # use the $DB env variable to determine the phpunit.xml to use
 script: echo "test message 2"
