@@ -1,7 +1,7 @@
 language: php
 php:
 - 5.3
-script: apt-get install gcc
+script: cat /etc/issue
 deploy:
   provider: s3
   access_key_id: AKIAILHE4W3F4FJZQBXA
