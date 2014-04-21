@@ -1,12 +1,8 @@
 language: php
 php:
-- 5.2
 - 5.3
-- 5.4
-- 5.5
 env:
 - DB=mysql
-- DB=pgsql
 before_script:
 - echo "test message"
 script: echo "test message 2"
