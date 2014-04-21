@@ -1,11 +1,6 @@
 language: php
 php:
 - 5.3
-env:
-- DB=mysql
-before_script:
-- echo "test message"
-script: echo "test message 2"
 deploy:
   provider: s3
   access_key_id: AKIAILHE4W3F4FJZQBXA
